@@ -1,0 +1,75 @@
+/*university colors*/
+/*blue: #003976*/
+/*amber: #f89828*/
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 3.5rem;    /* Footer height */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;            /* Footer height */
+    background-color: whitesmoke;
+}
+
+#header-table {
+    width: 100%;
+    background-color: whitesmoke;
+    color: black
+}
+
+/*.list-table {*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*}*/
+
+.list-table tr {
+    border: 1px solid #ddd;
+}
+
+tr.hidden-row td {
+    border: 0;
+}
+
+.list-table th {
+    border: 1px solid #ddd;
+}
+
+.list-table td {
+    border: 1px solid #ddd;
+}
+
+td.hidden-cell {
+    border: 0;
+}
+
+.list-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: #003976;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f89828;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
